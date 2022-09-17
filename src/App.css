@@ -19,29 +19,60 @@ body {
   flex-direction: column;
   background-color: cadetblue;
   color: white;
-  }
+}
 
-  .dealsSection {
-    width : 100% ;
-     flex : 50% ;
-    display : flex ;
-    justify-content : center ;
-     flex-direction : row ;
-   }
+.dealsSection {
+  width: 100%;
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
-   input , button {
-    width : 300px ;
-    height : 50px ;
-    border : none ;
-    border-radius : 8px ;
-    margin : 20px ;
-    font-size : 22px ;
-   }
+input,
+button {
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  margin: 20px;
+  font-size: 22px;
+}
 
-   input { 
-    padding-left : 10px ;
-    }
+input {
+  padding-left: 10px;
+}
 
-    button {
-      cursor: pointer;
-    }
+button {
+  cursor: pointer;
+}
+
+.games {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.game {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  border-radius: 7px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
+
+.game img {
+  width: 80%;
+  margin-top: 10px;
+}
+
+#deals {
+  background-color : cadetblue ;
+  color : white ;
+  width : 200px ;
+  height : 200px ;
+}
